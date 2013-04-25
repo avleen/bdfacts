@@ -22,7 +22,7 @@ def bdfacts():
     """Random BD Facts generator"""
     random.seed()
     bdstrings = [
-                ['Postcode', 'Zipcode', 'Gender', 'Political affiliation', 'Religion'],
+                ['Postcode', 'Zipcode', 'Gender', 'Political affiliation', 'Religion', 'Arrest Warrant'],
                 ['changed?', 'switched?', 'replaced?', 'no longer relevent?'],
                 ['Call BD', 'BD did it', 'BD entered the room', 'BD is about to speak'],
                 ['shit\'s going down', 'government is about to get bailed out', 'problem solved', 'laws of physics no longer apply']
