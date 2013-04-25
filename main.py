@@ -22,11 +22,25 @@ def bdfacts():
     """Random BD Facts generator"""
     random.seed()
     bdstrings = [
-                ['Postcode', 'Zipcode', 'Gender', 'Political affiliation', 'Religion', 'Arrest Warrant'],
-                ['changed?', 'switched?', 'replaced?', 'no longer relevent?'],
-                ['Call BD', 'BD did it', 'BD entered the room', 'BD is about to speak'],
-                ['shit\'s going down', 'government is about to get bailed out', 'problem solved', 'laws of physics no longer apply']
-                ]
+        ['Postcode',
+         'Zipcode',
+         'Gender',
+         'Political affiliation',
+         'Religion',
+         'Arrest Warrant'],
+        ['changed?',
+         'switched?',
+         'replaced?',
+         'no longer relevent?'],
+        ['Call BD',
+         'BD did it',
+         'BD entered the room',
+         'BD is about to speak'],
+        ['shit\'s going down',
+         'government is about to get bailed out',
+         'problem solved',
+         'laws of physics no longer apply']
+    ]
     choices = tuple(random.choice(fact) for fact in bdstrings)
     quote = '%s %s <br>- %s, %s.' % choices
     return quote
