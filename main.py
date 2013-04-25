@@ -53,7 +53,7 @@ def bdfacts():
          'laws of physics no longer apply',
          'samosas for everyone',
          'someone order a whiteboard from reception, stat',
-         'before we end up in the bronx']
+         'before we end up in the Bronx']
     ]
     choices = tuple(random.choice(fact) for fact in bdstrings)
     quote = '%s %s <br>- %s, %s.' % choices
