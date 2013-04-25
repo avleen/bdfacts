@@ -31,9 +31,11 @@ def bdfacts():
          'Database',
          '.zshrc',
          'Serial numbers',
+         'Cake balls',
          'Arrest warrant'],
         ['changed?',
          'switched?',
+         'not delivered?'
          'replaced?',
          'ruined?',
          'destroyed?',
@@ -47,6 +49,7 @@ def bdfacts():
          'It\'s time for BD',
          'BD needs some Punjabi Deli',
          'BD did it',
+         'BD failed',
          'BD entered the room',
          'BD fell asleep',
          'BD waltzes through security at the wrong airport',
@@ -57,6 +60,7 @@ def bdfacts():
          'problem solved',
          'laws of physics no longer apply',
          'samosas for everyone',
+         'Brandy saves the day',
          'JFK Terminal 7 on lock-down',
          'someone order a whiteboard from reception, stat',
          'before we end up in the Bronx']
