@@ -67,7 +67,10 @@ def bdfacts():
 
 class MainHandler(webapp.RequestHandler):
     def get(self):
-        page = """
+        if self.request.get('plain'):
+            self.response.out.write(bdfacts().replace('<br>', ''))
+        else:
+            page = """
 <html>
     <head>
         <title>Brown Dynamite Facts Generator</title>
@@ -87,7 +90,7 @@ class MainHandler(webapp.RequestHandler):
         </p>
     </body>
 </html>""" % bdfacts()
-        self.response.out.write(page)
+            self.response.out.write(page)
 
 
 def main():
