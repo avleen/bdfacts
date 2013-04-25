@@ -49,6 +49,7 @@ def bdfacts():
          'BD did it',
          'BD entered the room',
          'BD fell asleep',
+         'BD waltzes through security at the wrong airport',
          'BD orders a Macallan',
          'BD is about to speak'],
         ['shit\'s going down',
@@ -56,6 +57,7 @@ def bdfacts():
          'problem solved',
          'laws of physics no longer apply',
          'samosas for everyone',
+         'JFK Terminal 7 on lock-down',
          'someone order a whiteboard from reception, stat',
          'before we end up in the Bronx']
     ]
