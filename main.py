@@ -47,7 +47,7 @@ def bdfacts():
          'BD did it',
          'BD entered the room',
          'BD fell asleep',
-         'BD orders a MacAllan',
+         'BD orders a Macallan',
          'BD is about to speak'],
         ['shit\'s going down',
          'government is about to get bailed out',
