@@ -43,7 +43,7 @@ def bdfacts():
          'Find BD',
          'BD puts on his robe and wizard hat',
          'It\'s time for BD',
-         'BD needs some Pubjabi Deli',
+         'BD needs some Punjabi Deli',
          'BD did it',
          'BD entered the room',
          'BD is about to speak'],
