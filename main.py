@@ -27,8 +27,8 @@ def bdfacts():
                 ['Call BD', 'BD did it', 'BD entered the room', 'BD is about to speak'],
                 ['shit\'s going down', 'government is about to get bailed out', 'problem solved', 'laws of physics no longer apply']
                 ]
-    choices = tuple(random.choice(somefact) for facts in bdfacts)
-    quote = '%s %s - %s, %s.' % choices
+    choices = tuple(random.choice(fact) for fact in bdstrings)
+    quote = '%s %s <br>- %s, %s.' % choices
     return quote
 
 class MainHandler(webapp.RequestHandler):
