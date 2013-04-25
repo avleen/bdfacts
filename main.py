@@ -63,7 +63,7 @@ def bdfacts():
          'Brandy saves the day',
          'JFK Terminal 7 on lock-down',
          'someone order a whiteboard from reception, stat',
-         'before we end up in the Bronx']
+         'ended up in the Bronx']
     ]
     choices = tuple(random.choice(fact) for fact in bdstrings)
     quote = '%s %s <br>- %s, %s.' % choices
