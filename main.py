@@ -39,13 +39,21 @@ def bdfacts():
          'fucked up beyond all recognition?',
          'no longer relevant?'],
         ['Call BD',
+         'BD needs a banana',
+         'Find BD',
+         'BD puts on his robe and wizard hat',
+         'It\'s time for BD',
+         'BD needs some Pubjabi Deli',
          'BD did it',
          'BD entered the room',
          'BD is about to speak'],
         ['shit\'s going down',
          'government is about to get bailed out',
          'problem solved',
-         'laws of physics no longer apply']
+         'laws of physics no longer apply',
+         'samosas for everyone',
+         'someone order a whiteboard from reception, stat',
+         'before we end up in the bronx']
     ]
     choices = tuple(random.choice(fact) for fact in bdstrings)
     quote = '%s %s <br>- %s, %s.' % choices
