@@ -35,7 +35,7 @@ def bdfacts():
          'Arrest warrant'],
         ['changed?',
          'switched?',
-         'not delivered?'
+         'not delivered?',
          'replaced?',
          'ruined?',
          'destroyed?',
