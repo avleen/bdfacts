@@ -58,6 +58,7 @@ def bdfacts():
          'BD fell asleep',
          'BD waltzes through security at the wrong airport',
          'BD orders a Macallan',
+         'BD accidentally becomes a root nameserver',
          'BD is about to speak'],
         ['shit\'s going down',
          'government is about to get bailed out',
